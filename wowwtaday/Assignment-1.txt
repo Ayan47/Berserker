@@ -1,0 +1,40 @@
+Summerise everything in one line
+
+the questions are:
+Q1. Class A,B,C,D,E
+Q2.What is CIDR?
+Q3.reserve ip address
+Q4.100 inbound ports
+
+
+
+A1.
+Class A	IP address 1 to 126,  default subnet mask .255.0.0
+   
+Class B	IP address 128 to 191,  default subnet mask .255.255.0
+
+   Class C	IP address 192 to 223,  default subnet mask .255.255.255
+
+
+   Class D	IP address 224 to 239,  default subnet mask .N/A (multicast)
+   
+Class E	IP address 240 to 255,  default subnet mask .N/A
+ (reserve)
+
+
+
+
+A2.CIDR reduced the problem of wasted address space by providing a new and more flexible way to specify network addresses in routers. This is much like how the public telephone system uses area codes to channel calls toward a certain part of the network.
+
+A3.In the Internet addressing architecture, the Internet Engineering Task Force and the Internet Assigned Numbers Authority have specifically reserved various IP addresses for special designated purposes.
+
+A4.HTTP 90 
+   SSH 22 
+   SMTP 25 
+   DNS 53 
+   POP3 110 
+   HTTPS 443 
+   MS SQL 1433 
+   RDP 3389 
+   MYSQL/Aurora 3306 
+   Oracle-RDS 1521
